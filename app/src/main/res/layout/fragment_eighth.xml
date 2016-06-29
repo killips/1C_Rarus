@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.ourbrainchild.first.a1c_rarus.fragments.Fragment_Eighth">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="700dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView6"
+        android:layout_gravity="center"
+        android:src="@mipmap/back"
+        android:rotation="90"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch ME:)"
+        android:id="@+id/switch1"
+        android:layout_gravity="left|top"
+        android:checked="false"
+        android:layout_margin="50dp" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle ME:)"
+        android:id="@+id/toggleButton"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="50dp"
+        android:checked="false" />
+
+    <TextClock
+        android:layout_width="106dp"
+        android:layout_height="31dp"
+        android:id="@+id/textClock"
+        android:layout_gravity="right|center_vertical" />
+
+</FrameLayout>

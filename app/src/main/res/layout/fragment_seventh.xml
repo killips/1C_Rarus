@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.ourbrainchild.first.a1c_rarus.fragments.Fragment_Seventh">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Wonan"
+                android:id="@+id/button10"
+                android:layout_weight="1"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginBottom="-5dp"
+                android:background="#85a4a0" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Baby"
+                android:id="@+id/button9"
+                android:layout_weight="1"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="-6dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginBottom="-6dp"
+                android:background="#5b8085" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Tech"
+                android:id="@+id/button11"
+                android:layout_weight="1"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginBottom="-5dp"
+                android:background="#3b616a" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Man"
+                android:id="@+id/button12"
+                android:layout_weight="1"
+                android:layout_marginLeft="-6dp"
+                android:layout_marginTop="-6dp"
+                android:layout_marginRight="-6dp"
+                android:layout_marginBottom="-6dp"
+                android:background="#6f9294" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Travel"
+                android:id="@+id/button13"
+                android:layout_weight="1"
+                android:layout_marginLeft="-6dp"
+                android:layout_marginTop="-6dp"
+                android:layout_marginRight="-6dp"
+                android:layout_marginBottom="-6dp"
+                android:background="#486e75" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="FOOD&amp;DRINK"
+                android:id="@+id/button14"
+                android:layout_weight="1"
+                android:layout_marginLeft="-6dp"
+                android:layout_marginTop="-6dp"
+                android:layout_marginRight="-6dp"
+                android:layout_marginBottom="-6dp"
+                android:background="#2d515e" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

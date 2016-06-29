@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="First" />
+        <item
+            android:id="@+id/nav_second"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Second" />
+        <item
+            android:id="@+id/nav_third"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Third" />
+        <item
+            android:id="@+id/nav_fourth"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Fourth" />
+        <item
+            android:id="@+id/nav_fifth"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Fifth"
+            />
+        <item
+            android:id="@+id/nav_sixth"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sixth"
+            />
+    </group>
+
+    <item android:title="My Layout">
+        <menu>
+            <item
+                android:id="@+id/nav_seventh"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Seventh" />
+            <item
+                android:id="@+id/nav_eighth"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Eighth" />
+        </menu>
+    </item>
+
+</menu>
